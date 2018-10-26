@@ -16,6 +16,6 @@
         "kint-php/kint": "^3.0"
     },
   "autoload": {
-    "classmap": ["App/Controller", "App/Views/"]
+    "classmap": ["App/Controller", "categories.json"]
   }
 }
