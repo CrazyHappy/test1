@@ -21,21 +21,22 @@
 [ОТСТУП][Название категории][Пробел][URL от корня до категории]
 
 Пример:
-Пользователи /users
 
-	Создание /users/create
+	Пользователи /users
+	
+		Создание /users/create
+	
+		Список /users/list
+	
+			Активные /users/list/active
+	
+			Удаленные /users/list/deleted
+	
+		Поиск /users/search
+	
+	Заявки /requests
 
-	Список /users/list
-
-		Активные /users/list/active
-
-		Удаленные /users/list/deleted
-
-	Поиск /users/search
-
-Заявки /requests
-
-	Заявки на подкючение /requests/connecting
+		Заявки на подкючение /requests/connecting
 
 ...И так далее...
 
